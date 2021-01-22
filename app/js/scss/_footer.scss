@@ -1,0 +1,82 @@
+.footer{
+
+background-color: $darkBlue;
+color: $white;
+padding: 2.5rem;
+text-align: center;
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+    //position: static;
+    //bottom: 0;
+}
+
+a{
+    color: $white;
+}
+
+&__logo{
+    margin-bottom: 1.875rem;
+    display: inline-block;
+    
+}
+&__social{
+    margin-bottom: 1.875rem;
+
+  
+
+
+}
+&__links{
+display: flex;
+flex-direction: column;
+
+    &col.1{
+
+    }
+
+    &col2{
+        margin-bottom: 1.875rem;
+
+    }
+
+}
+
+&__cta{
+
+a.button{
+    margin-bottom: 1.875rem;
+
+}
+
+}
+
+&__copyright{
+
+}
+
+
+
+
+}
+
+
+.media{
+    display: inline-block;
+}
+
+.media:not(:last-child){
+    
+    margin-right: 1rem;
+}
+
+
+.footer__links col2{
+    
+    margin-bottom: 1.875rem;
+
+}
+
+.footer__links col1{
+   
+
+}
